@@ -13,7 +13,8 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
   3. Informar uma senha válida.
   4. Clicar em Entrar.
 - Resultado esperado: o sistema deve permitir o acesso.
-- Status: Não executado.
+- - Status: PASSOU (Pass).
+- Resultado obtido: O sistema permitiu o acesso e abriu a página de produtos.
 
 ### CT002 — Login com senha incorreta
 - Pré-condição: possuir uma conta cadastrada.
@@ -23,7 +24,9 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
   3. Informar uma senha incorreta.
   4. Clicar em Entrar.
 - Resultado esperado: o sistema deve bloquear o acesso e apresentar uma mensagem adequada.
-- Status: Não executado.
+- Status: Passou (Pass)
+- Resultado obtido: O sistema bloqueou o acesso ao informar uma senha incorreta.
+- Mensagem apresentada: Epic sadface: Username and password do not match any user in this service
 
 ### CT003 — Login com e-mail vazio
 - Passos:
@@ -32,7 +35,10 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
   3. Informar uma senha.
   4. Clicar em Entrar.
 - Resultado esperado: o sistema deve solicitar o preenchimento do e-mail.
-- Status: Não executado.
+- Status: PASSOU (Pass).
+- Resultado obtido: O sistema bloqueou o acesso quando o campo de usuário foi deixado vazio.
+- Mensagem apresentada: Epic sadface: Username is required
+  
 
 ### CT004 — Login com senha vazia
 - Passos:
@@ -41,7 +47,9 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
   3. Deixar o campo de senha vazio.
   4. Clicar em Entrar.
 - Resultado esperado: o sistema deve solicitar o preenchimento da senha.
-- Status: Não executado.
+- Status: PASSOU (Pass).
+- Resultado obtido: O sistema bloqueou o acesso quando o campo de senha foi deixado vazio.
+- Mensagem apresentada: Epic sadface: Password is required
 
 ### CT005 — Login com e-mail em formato inválido
 - Passos:
@@ -50,4 +58,6 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
   3. Informar uma senha.
   4. Clicar em Entrar.
 - Resultado esperado: o sistema deve validar o formato do e-mail e impedir o envio dos dados inválidos.
-- Status: Não executado.
+- Status: PASSOU.
+- Resultado obtido: O sistema bloqueou o acesso ao utilizar um nome de usuário inexistente.
+- Mensagem apresentada: Epic sadface: Username and password do not match any user in this service.
