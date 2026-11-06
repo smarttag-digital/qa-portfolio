@@ -27,6 +27,7 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
 - Status: Passou (Pass)
 - Resultado obtido: O sistema bloqueou o acesso ao informar uma senha incorreta.
 - Mensagem apresentada: Epic sadface: Username and password do not match any user in this service
+- Evidência: [Visualizar captura CT002](evidencias/CT002-senha-incorreta.png)
 
 ### CT003 — Login com e-mail vazio
 - Passos:
