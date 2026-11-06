@@ -13,8 +13,9 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
   3. Informar uma senha válida.
   4. Clicar em Entrar.
 - Resultado esperado: o sistema deve permitir o acesso.
-- - Status: PASSOU (Pass).
+- Status: PASSOU (Pass).
 - Resultado obtido: O sistema permitiu o acesso e abriu a página de produtos.
+- Evidência: [Visualizar captura CT001](evidencias/CT001-login-sucesso.png)
 
 ### CT002 — Login com senha incorreta
 - Pré-condição: possuir uma conta cadastrada.
@@ -39,6 +40,7 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
 - Status: PASSOU (Pass).
 - Resultado obtido: O sistema bloqueou o acesso quando o campo de usuário foi deixado vazio.
 - Mensagem apresentada: Epic sadface: Username is required
+- Evidência: [Visualizar captura CT003](evidencias/CT003-usuario-vazio.png)
   
 
 ### CT004 — Login com senha vazia
@@ -51,6 +53,7 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
 - Status: PASSOU (Pass).
 - Resultado obtido: O sistema bloqueou o acesso quando o campo de senha foi deixado vazio.
 - Mensagem apresentada: Epic sadface: Password is required
+- Evidência: [Visualizar captura CT004](evidencias/CT004-senha-vazia.png)
 
 ### CT005 — Login com e-mail em formato inválido
 - Passos:
@@ -62,3 +65,4 @@ Verificar se a funcionalidade de login apresenta o comportamento esperado em dif
 - Status: PASSOU.
 - Resultado obtido: O sistema bloqueou o acesso ao utilizar um nome de usuário inexistente.
 - Mensagem apresentada: Epic sadface: Username and password do not match any user in this service.
+- Evidência: [Visualizar captura CT005](evidencias/CT005-usuario-inexistente.png)
