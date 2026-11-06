@@ -20,7 +20,7 @@ Registrar os resultados da execução dos casos de teste da funcionalidade de lo
 | CT002 | Login com senha incorreta | Passou |
 | CT003 | Login com usuário vazio | Passou |
 | CT004 | Login com senha vazia | Passou |
-| CT005 | Login com usuário inexistente | Aguardando validação da mensagem |
+| CT005 | Login com usuário inexistente | Passou |
 
 ## 4. Bugs identificados
 
