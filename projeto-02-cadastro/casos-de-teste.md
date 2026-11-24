@@ -40,3 +40,10 @@
 - **Resultado obtido:** O sistema bloqueou o cadastro e apresentou a mensagem "Email Address already exist!".
 - **Status:** PASSOU.
 - **Evidência:** [Visualizar captura CT005](evidencias/CT005-email-duplicado.png)
+
+### CT006 — Cadastro sem senha
+
+- **Resultado esperado:** O sistema deve impedir o envio do cadastro e solicitar o preenchimento do campo senha.
+- **Resultado obtido:** O navegador apresentou a mensagem "Preencha esse campo", impedindo o envio do cadastro sem senha.
+- **Status:** PASSOU.
+- **Evidência:** [Visualizar captura CT006](evidencias/CT006-senha-vazia.png)
