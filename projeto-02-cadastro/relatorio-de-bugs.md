@@ -3,13 +3,13 @@
 **Sistema:** Automation Exercise  
 **Módulo:** Cadastro de usuário  
 **Responsável pelos testes:** Letícia  
-**Status da análise:** Em andamento
+**Status da análise:** Concluído
 
 ---
 
 ## 1. Resumo da execução
 
-Até o momento, foram executados cinco casos de teste relacionados ao cadastro de usuários.
+Foram executados seis casos de teste relacionados ao cadastro de usuários.
 
 | Caso de teste | Resultado |
 |---|---|
@@ -18,19 +18,28 @@ Até o momento, foram executados cinco casos de teste relacionados ao cadastro d
 | CT003 — Cadastro sem e-mail | PASSOU |
 | CT004 — Cadastro com e-mail inválido | PASSOU |
 | CT005 — Cadastro com e-mail já existente | PASSOU |
+| CT006 — Cadastro sem senha | PASSOU |
 
 ## 2. Defeitos identificados
 
-Nenhum defeito foi identificado nos cinco cenários executados até o momento.
+Nenhum defeito foi identificado nos seis cenários executados.
 
-## 3. Conclusão
+## 3. Indicadores da execução
 
-Os cenários executados apresentaram os comportamentos esperados.
+- Total de testes: 6
+- Aprovados: 6
+- Reprovados: 0
+- Bloqueados: 0
+- Bugs identificados: 0
 
-As validações de campos obrigatórios, formato de e-mail e duplicidade de endereço foram verificadas com sucesso.
+## 4. Conclusão
 
-O projeto permanece em andamento até a execução dos demais casos de teste.
+Os seis cenários executados apresentaram os comportamentos esperados, conforme os critérios definidos no plano de testes.
+
+Não foram identificados defeitos durante a execução dos cenários planejados.
+
+O Projeto 02 foi encerrado, com os casos de teste, resultados e evidências documentados.
 
 ---
 
-**Observação:** Este relatório será atualizado caso novos defeitos sejam identificados durante a execução dos testes.
+**Observação:** A ausência de bugs identificados se aplica exclusivamente aos cenários executados. Outros comportamentos do sistema não foram avaliados neste projeto.
