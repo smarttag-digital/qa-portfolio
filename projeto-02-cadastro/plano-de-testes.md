@@ -1,30 +1,30 @@
-# Projeto 02 — Testes de Cadastro
+## 6. Status do projeto
 
-## 1. Objetivo
-Verificar o funcionamento do formulário de cadastro de usuários, identificando possíveis falhas no preenchimento e na validação dos dados.
+**Status:** CONCLUÍDO
 
-## 2. Sistema testado
-- Nome: Automation Exercise
-- Site: https://www.automationexercise.com/
-- Tipo de teste: QA Manual
-- Navegador: Google Chrome
+**Casos de teste executados:** 6
 
-## 3. Escopo dos testes
-- Cadastro com dados válidos.
-- Tentativa de cadastro com e-mail já existente.
-- Validação de campos obrigatórios.
-- Validação do formato do e-mail.
-- Validação das informações da conta.
-- Verificação da mensagem de cadastro concluído.
+| ID | Cenário | Resultado |
+|---|---|---|
+| CT001 | Cadastro com dados válidos | PASSOU |
+| CT002 | Cadastro sem nome | PASSOU |
+| CT003 | Cadastro sem e-mail | PASSOU |
+| CT004 | Cadastro com e-mail inválido | PASSOU |
+| CT005 | Cadastro com e-mail já existente | PASSOU |
+| CT006 | Cadastro sem senha | PASSOU |
 
-## 4. Tipos de teste
-- Teste funcional.
-- Teste de validação de campos.
-- Teste negativo.
-- Teste positivo.
+## 7. Resumo da execução
 
-## 5. Critérios de aprovação
-O teste será aprovado quando o sistema apresentar o comportamento esperado para cada cenário.
+- Total de testes: 6
+- Aprovados: 6
+- Reprovados: 0
+- Bloqueados: 0
 
-## 6. Status
-Em desenvolvimento.
+## 8. Conclusão
+
+Os seis cenários planejados foram executados com sucesso. 
+Os resultados obtidos corresponderam aos comportamentos esperados.
+
+O projeto foi encerrado com os casos de teste, resultados e evidências documentados.
+
+**Observação:** O encerramento representa a conclusão do escopo definido para este projeto, não a cobertura integral de todas as funcionalidades do sistema.
